@@ -1,0 +1,9 @@
+numpy>=1.22
+matplotlib>=3.6
+pillow>=9.5
+# GUI dependencies
+# Tkinter is included with most CPython Windows installers. If missing, install Python with tcl/tk option.
+# Optional acceleration
+numba>=0.57; platform_system=="Windows"
+# Optional theming
+ttkbootstrap>=1.10

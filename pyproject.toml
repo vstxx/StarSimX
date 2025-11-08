@@ -1,0 +1,14 @@
+[project]
+name = "starsimx"
+version = "0.1.1"
+description = "Educational N-body star formation toy simulator with GUI"
+authors = [{name = "StarSimX"}]
+requires-python = ">=3.9"
+dependencies = [
+  "numpy>=1.22",
+  "matplotlib>=3.6",
+  "pillow>=9.5",
+]
+
+[project.scripts]
+starsimx = "StarSimX.StarSimX:main"

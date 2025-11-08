@@ -1,0 +1,16 @@
+{
+  "N": 600,
+  "mass_total": 1.0,
+  "radius": 1.0,
+  "eps": 0.02,
+  "dt": 0.002,
+  "t_end": 3.0,
+  "vrms": 0.1,
+  "omega": 0.2,
+  "seed": 42,
+  "init_mode": "uniform_sphere",
+  "gif": "out.gif",
+  "gif_stride": 5,
+  "energy_stride": 10,
+  "out_prefix": "run"
+}
